@@ -1,0 +1,132 @@
+/* Define color variables based on the logo */
+:root {
+    --primary-color: #6B4E1D; /* Dark coffee brown */
+    --secondary-color: #D1BFA9; /* Light beige */
+    --accent-color: #483223e3; /* Medium brown */
+    --background-color: #F6F1EB; /* Light background */
+    --text-color: #3C2A1E; /* Dark text */
+    --white: #ffffff;
+}
+
+/* General body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #6b4e1d54;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+/* Header styling */
+.bg-warning {
+    background-color: #6b4e1da1 !important;
+    border-radius: 10px;
+}
+
+.text-white {
+    color: var(--text-color) !important;
+}
+
+/* Product Card Styling */
+.card {
+    background-color: var(--white);
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 5px;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.card h3 {
+    color: var(--primary-color);
+}
+
+.card p {
+    color: var(--text-color);
+}
+
+.card button {
+    background-color: var(--accent-color);
+    border: none;
+    color: var(--white);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card button:hover {
+    background-color: #6b4e1d54;
+}
+
+/* Footer styling */
+footer {
+    background-color: #614430fd;
+    color: var(--white);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Modal Styling */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: var(--accent-color);
+    color: var(--white);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.modal-footer button {
+    background-color: var(--accent-color);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.modal-footer button:hover {
+    background-color: #6b4e1d54;
+}
